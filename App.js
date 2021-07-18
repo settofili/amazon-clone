@@ -10,14 +10,12 @@ function App() {
     //BEM
     <Router>
     <div className="app">   
+    <Header />
     <Switch>
       <Route path="/checkout">
-          <Header />
           <Checkout />
-          <h1>I AM A CHECKOUT, SMASH THE LIKE BUTTON</h1>
-    </Route>
-    <Route path="/">
-          <Header />
+      </Route>
+       <Route path="/">
           <Home /> 
     </Route>
     </Switch>
